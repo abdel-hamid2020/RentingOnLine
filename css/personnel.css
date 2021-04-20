@@ -1,0 +1,128 @@
+#nav{position: absolute; /* Set the navbar to fixed position */
+ /* Position the navbar at the top of the page */}
+/* sign in FORM */
+#bas{
+    padding-top:18%;
+}
+.vertical-line{
+        border-left: 2px solid #000;
+        display: inline-block;
+        height:95%;
+        margin: 0 20px;
+      }
+
+#cr{
+          color: red;
+      }
+.bod{ background-image:url(https://www.hoteldeluxe.info/wp-content/uploads/2013/06/Al-Maha-Dubai.jpg); 
+            background-size:100% ;
+            background-repeat: no-repeat;
+            padding-top : 5%;}
+.idbod{
+     background-image:url(images/fd.jpg);
+          background-size: 100% ;
+            background-repeat:repeat;
+            padding-top : 5%
+}
+#footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bubble {
+
+
+position: relative;
+width: 275px;
+
+padding: 1px;
+background: white;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+border: #7F7F7F solid 1px;
+top: 40%;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 4px 10px 4px 0;
+border-color:transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+left: -10px;
+top: 40%;
+}
+
+.bubble:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 4px 10px 4px 0;
+border-color: transparent #7F7F7F;
+display: block;
+width: 0;
+z-index: 0;
+left: -10px;
+top: 40%;
+}
+
+
+
+p.h1 {
+  margin: 40px 0 0;
+}
+p.h1 + p.h1 {
+  margin: 0;
+}
+
+#content {
+  background-color: #fff;
+  width: 800px;
+  margin: 40px auto;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 3px 39px -6px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 3px 39px -6px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 39px -6px rgba(0,0,0,0.2);
+}
+
+#content.internal_error p.h1 {
+  margin-bottom: 0;
+}
+
+#column-txt {
+  padding: 70px 50px;
+}
+
+.logo_custom {
+  display: inline-block;
+  margin-left: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+.logo_custom_title {
+  font-size: 1.625rem;
+  font-weight: bold;
+}
